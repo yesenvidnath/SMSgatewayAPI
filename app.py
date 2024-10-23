@@ -6,7 +6,7 @@ app = Flask(__name__)
 # Function to send SMS
 def send_sms(phone_number, sender_id, message):
     api_url = "https://sms.send.lk/api/v3/sms/send"
-    api_token = "2334|bH0R9fligE86CIzDKMZmViVZmykcOD0xPCLyrqhK"  # Replace with your actual access token
+    api_token = " "  # Replace with your actual access token
 
     msg_data = {
         "recipient": phone_number,
